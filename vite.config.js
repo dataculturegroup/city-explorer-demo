@@ -6,6 +6,7 @@ export default defineConfig({
   base: '/city-explorer-demo/',
   plugins: [svelte()],
   build: {
-    outDir: 'docs'
+    outDir: 'docs',
+    emptyOutDir: true
   }
 })
