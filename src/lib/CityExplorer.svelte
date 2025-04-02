@@ -19,6 +19,8 @@
 	}
 </script>
 
+<img src="banner.jpg" alt="Travel Tips banner with buildings" width=400/>
+
 <div id="explorer">
 	<CityPicker {currentCityName} {onCityChange} {cityNames} />
 	<CityDetails {currentCityName} {currentCityDetails} />
